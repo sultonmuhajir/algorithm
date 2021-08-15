@@ -26,11 +26,15 @@ function hero(int $bullets, int $dragons){
 }
 
 
-echo(hero(10,5)), '
-';
-echo(hero(7,4)), '
-';
-echo(hero(4,5)), '
-';
-echo(hero(100,40)), '
-';
+print_r(hero(10, 5). ' ' . true . '
+');
+print_r(hero(7, 4). ' ' . false . '
+');
+print_r(hero(4, 5). ' ' . false . '
+');
+print_r(hero(100, 40). ' ' . true . '
+');
+print_r(hero(1500, 751). ' ' . false . '
+');
+print_r(hero(0, 1). ' ' . false . '
+');

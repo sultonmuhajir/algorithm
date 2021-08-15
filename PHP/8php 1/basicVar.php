@@ -25,4 +25,4 @@ global $name;
 $name = 'codewa.rs';
 
 
-print_r($name);
+print_r($name. ' codewa.rs');

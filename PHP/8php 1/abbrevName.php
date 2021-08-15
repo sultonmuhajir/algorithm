@@ -37,13 +37,13 @@ function abbrevName($name)
 }
 
 
-echo(abbrevName("Sam Harris")), '
-';
-echo(abbrevName("Patrick Feenan")), '
-';
-echo(abbrevName("Evan Cole")), '
-';
-echo(abbrevName("P Favuzzi")), '
-';
-echo(abbrevName("David Mendieta")), '
-';
+print_r(abbrevName("Sam Harris")." S.H
+");
+print_r(abbrevName("Patrick Feenan")." P.F
+");
+print_r(abbrevName("Evan Cole")." E.C
+");
+print_r(abbrevName("P Favuzzi")." P.F
+");
+print_r(abbrevName("David Mendieta")." D.M
+");

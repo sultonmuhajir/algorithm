@@ -35,4 +35,4 @@ function greet() {
 }
 
 
-echo(greet());
+print_r(greet(). ' hello world!');

@@ -25,11 +25,11 @@ function greet(string $name): string {
 }
 
 
-echo(greet('Jim')), '
-';
-echo(greet('Jane')), '
-';
-echo(greet('Simon')), '
-';
-echo(greet('Johnny')), '
-';
+print_r(greet("Jim"). " Hello, Jim!
+");
+print_r(greet("Jane"). " Hello, Jane!
+");
+print_r(greet("Simon"). " Hello, Simon!
+");
+print_r(greet("Johnny"). " Hello, my love!
+");

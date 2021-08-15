@@ -26,7 +26,7 @@ function greet($name): string {
 }
 
 
-echo(greet("Ryan")), '
-';
-echo(greet("Shingles")), '
-';
+print_r(greet("Ryan"). " Hello, Ryan how are you doing today?
+");
+print_r(greet("Shingles"). " Hello, Shingles how are you doing today?
+");

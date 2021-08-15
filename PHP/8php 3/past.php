@@ -26,9 +26,13 @@ function past($h, $m, $s) {
 }
 
 
-echo(past(0, 1, 1)), '
-';
-echo(past(1, 1, 1)), '
-';
-echo(past(0, 0, 0)), '
-';
+print_r(past(0, 1, 1). ' ' . 61000 . '
+');
+print_r(past(1, 1, 1). ' ' . 3661000 . '
+');
+print_r(past(0, 0, 0). ' ' . 0 . '
+');
+print_r(past(1, 0, 1). ' ' . 3601000 . '
+');
+print_r(past(1, 0, 0). ' ' . 3600000 . '
+');

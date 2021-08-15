@@ -24,7 +24,7 @@ function paperwork(int $n, int $m): int
 }
 
 
-echo(paperwork(5, 5)), '
-';
-echo(paperwork(5, 0)), '
-';
+print_r(paperwork(5, 5). ' ' . 25 . '
+');
+print_r(paperwork(-5, 5). ' ' . 0 . '
+');

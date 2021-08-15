@@ -34,9 +34,13 @@ function positive_sum($arr) {
 }
 
 
-echo(positive_sum([1, 2, 3, 4, 5])), '
-';
-echo(positive_sum([1, -2, 3, 4, 5])), '
-';
-echo(positive_sum([])), '
-';
+print_r(positive_sum([1, 2, 3, 4, 5]). ' ' . 15 . '
+');
+print_r(positive_sum([1, -2, 3, 4, 5]). ' ' . 13 . '
+');
+print_r(positive_sum([]). ' ' . 0 . '
+');
+print_r(positive_sum([-1, -2, -3, -4, -5]). ' ' . 0 . '
+');
+print_r(positive_sum([-1, 2, 3, 4, -5]). ' ' . 9 . '
+');

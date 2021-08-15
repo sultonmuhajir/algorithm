@@ -21,9 +21,4 @@ function opposite($n) {
 }
 
 
-echo(opposite(1)), '
-';
-echo(opposite(14)), '
-';
-echo(opposite(-34)), '
-';
+print_r(opposite(5). -1);

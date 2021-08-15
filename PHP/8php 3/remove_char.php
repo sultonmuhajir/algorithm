@@ -37,11 +37,11 @@ function remove_char(string $s): string {
 }
 
 
-echo(remove_char('eloquent')),'
-';
-echo(remove_char('country')),'
-';
-echo(remove_char('person')),'
-';
-echo(remove_char('place')),'
-';
+print_r(remove_char('eloquent'). ' loquen
+');
+print_r(remove_char('country'). ' ountr
+');
+print_r(remove_char('person'). ' erso
+');
+print_r(remove_char('place'). ' lac
+');

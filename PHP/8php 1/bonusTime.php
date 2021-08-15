@@ -26,9 +26,9 @@ function bonusTime( int $salary, bool $bonus ) : string {
 }
 
 
-echo(bonusTime(60000, false)), '
-';
-echo(bonusTime(2, true)), '
-';
-echo(bonusTime(78, false)), '
-';
+print_r(bonusTime(60000, false). ' £60000
+');
+print_r(bonusTime(2, true). ' £20
+');
+print_r(bonusTime(78, false). ' £78
+');

@@ -38,9 +38,9 @@ function repeatStr($n, $str)
 }
 
 
-echo(repeatStr(3, "*")),'
-';
-echo(repeatStr(2, "@")),'
-';
-echo(repeatStr(1, "!")),'
-';
+print_r(repeatStr(3, "*"). " ***
+");
+print_r(repeatStr(5, "#"). " #####
+");
+print_r(repeatStr(2, "ha "). " ha ha 
+");

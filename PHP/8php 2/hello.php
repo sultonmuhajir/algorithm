@@ -22,11 +22,11 @@ function hello($name = ''): string {
 }
 
 
-echo(hello('johN')), '
-';
-echo(hello('aliCE')), '
-';
-echo(hello()), '
-';
-echo(hello('')), '
-';
+print_r(hello('johN'). ' Hello, John!
+');
+print_r(hello('alice'). ' Hello, Alice!
+');
+print_r(hello(). ' Hello, World!
+');
+print_r(hello(''). ' Hello, World!
+');

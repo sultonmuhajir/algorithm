@@ -29,17 +29,13 @@ function centuryFromYear($year){
 }
 
 
-function centuryFromYear($year)
-{
-  return substr($year, 0, -2) + (substr($year, -2) == '00' ? 0 : 1);
-}
-
-
-echo(centuryFromYear(1705)),'
-';
-echo(centuryFromYear(1900)),'
-';
-echo(centuryFromYear(1601)),'
-';
-echo(centuryFromYear(2000)),'
-';
+print_r(centuryFromYear(1705).' ' .  18 . '
+');
+print_r(centuryFromYear(1900).' ' .  19 . '
+');
+print_r(centuryFromYear(1601).' ' .  17 . '
+');
+print_r(centuryFromYear(2000).' ' .  20 . '
+');
+print_r(centuryFromYear(89).' ' .  1 . '
+');

@@ -43,11 +43,11 @@ function basicOp($op, $val1, $val2) {
 }
 
 
-echo(basicOp('+', 4, 7)), '
-';
-echo(basicOp('-', 15, 18)), '
-';
-echo(basicOp('*', 5, 5)), '
-';
-echo(basicOp('/', 49, 7)), '
-';
+print_r(basicOp('+', 4, 7).' ' . 11 . '
+');
+print_r(basicOp('-', 15, 18).' ' . -3 . '
+');
+print_r(basicOp('*', 5, 5).' ' . 25 . '
+');
+print_r(basicOp('/', 49, 7).'  '. 7 . '
+');

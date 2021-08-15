@@ -26,9 +26,9 @@ function get_average($a) {
 }
 
 
-echo(get_average([2, 2, 2, 2])), '
-';
-echo(get_average([1, 2, 3, 4, 5])), '
-';
-echo(get_average([1, 1, 1, 1, 1, 1, 1, 2])), '
-';
+print_r(get_average([2, 2, 2, 2]).' ' . 2 . '
+');
+print_r(get_average([1, 2, 3, 4, 5, ]).' ' . 3 . '
+');
+print_r(get_average([1, 1, 1, 1, 1, 1, 1, 2]).' ' . 1 . '
+');

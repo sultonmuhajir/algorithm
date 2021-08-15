@@ -24,7 +24,8 @@ function boolToWord($bool){
    return $bool == true ? 'Yes' : 'No';
 }
 
-echo(boolToword(true)), '
-';
-echo(boolToword(false)), '
-';
+
+print_r(boolToWord(true). ' Yes
+');
+print_r(boolToWord(false). ' No
+');
