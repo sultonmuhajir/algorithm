@@ -41,4 +41,4 @@ function sumArray(array) {
 
 
 console.log(sumArray([6, 2, 1, 8, 10]), 16);
-console.log(sumArray(), 16);
+console.log(sumArray(), 0);
