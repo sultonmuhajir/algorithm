@@ -1,33 +1,24 @@
 /*
 |--------------------------------------------------------------------------
-| Regexp Basics - is it a digit?
+| Is it a number?
 |--------------------------------------------------------------------------
 |
 */
 
-String.prototype.digit = function () {
-   return this.match(/^[0-9]$/) != null;
-};
+function isDigit(s) {
+   return s == parseFloat(s);
+}
 
 
-String.prototype.digit = function () {
-   return /^[0-9]$/g.test(this);
-};
+function isDigit(s) {
+   return /^-?\d+(\.\d+)?$/.test(s);
+}
 
 
-String.prototype.digit = function () {
-   return /^\d$/.test(this);
-};
+function isDigit(s) {
+   return !!str.trim() && !isNaN(str);
+}
 
 
-String.prototype.digit = function () {
-   return this.length === 1 && "0" <= this && this <= "9";
-};
-
-
-console.log("".digit(), false);
-console.log("7".digit(), true);
-console.log(" ".digit(), false);
-console.log("a".digit(), false);
-console.log("a5".digit(), false);
-console.log("14".digit(), false);
+console.log(isDigit("s2324"), false);
+console.log(isDigit("-234.4"), true);
